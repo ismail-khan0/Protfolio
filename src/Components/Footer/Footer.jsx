@@ -13,7 +13,7 @@ const Footer = () => {
         <span>ik8323253@gmail.com</span>
          
         <div className="f-icons">
-          <a href="www.instagram.com/i.s.m.a.i.l__k.h.a.n/">
+          <a href="https://instagram.com/itz_me_ismail_khann?igshid=MzNlNGNkZWQ4Mg==">
           <Insta color="white" size={"3rem"} />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100007120635255&mibextid=ZbWKwL" >

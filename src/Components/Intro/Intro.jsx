@@ -45,7 +45,7 @@ const Intro = () => {
           <span>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
-        </span>ismoal k
+        </span>
         </div>
         
           <button className="button i-button">Hire me</button>
@@ -54,10 +54,10 @@ const Intro = () => {
         <div className="i-icons">
         <a href="https://github.com/ismail-khan0" >
           <img src={Github} alt="" /></a>
-
+       <a href="https://www.linkedin.com/in/ismail-khan-57982a244">      
           <img src={LinkedIn} alt="" />
-
-          <a href="www.instagram.com/i.s.m.a.i.l__k.h.a.n/">
+           </a>
+          <a href="https://instagram.com/itz_me_ismail_khann?igshid=MzNlNGNkZWQ4Mg==">
           <img src={Instagram} alt="" /></a>
 
         </div>
