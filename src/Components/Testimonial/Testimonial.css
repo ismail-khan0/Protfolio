@@ -68,6 +68,20 @@
     background: var(--orange);
 }
 @media screen and (max-width: 480px){
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem;
+        width: 32rem;
+        height: 14rem;
+        /* styles same as work.css */
+        background: rgba(255, 255, 255, 0.26);
+        border: 7px solid var(--blueCard);
+        box-shadow: var(--boxShadow);
+        border-radius: 20px;
+    }
     .t-wrapper{
         padding: 0;
     }

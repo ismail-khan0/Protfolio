@@ -1,4 +1,3 @@
-
 .experience {
     display: flex;
     align-items: center;
@@ -9,12 +8,14 @@
     /* darkmode */
     color: var(--black);
   }
-  .achievement{
+  
+  .achievement {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     align-items: center;
-}
-.circle {
+  }
+  
+  .circle {
     width: 4rem;
     height: 4rem;
     background: white;
@@ -26,8 +27,9 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
-}
-.circle::before {
+  }
+  
+  .circle::before {
     border-radius: 100%;
     content: '';
     background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
@@ -36,9 +38,24 @@
     bottom: -8px;
     right: -8px;
     position: absolute;
-    z-index:-1;
+    z-index: -1;
     box-shadow: var(--boxShadow);
-}
-.achievement span:nth-of-type(2){
+  }
+  
+  .achievement span:nth-of-type(2) {
     color: var(--orange);
-}
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    .experience {
+      flex-wrap: wrap;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+  
+    .achievement {
+      margin-bottom: 3rem;
+    }
+  }
+  
